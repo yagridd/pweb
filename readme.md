@@ -10,9 +10,13 @@
     <form>
 
 
-    </form>
+ </form>
 
 </body>
 
-<input type
+<input type="text" required name= "login"><br>
+<input type="passaword" name= "senha"><br>
+<input type= "email" name= "email" ><br><br>
+<input type= "checkbox" value="futebol" name="interesses">futebol<br>
+
 
