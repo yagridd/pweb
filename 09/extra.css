@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: lightblue;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+
+.container{
+    display: flex;
+    margin-top: 80px;
+}
+
+aside{
+    background-color: lightcoral;
+    width: 25%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+
+main{
+    background-color: lightgreen;
+    width: 75%;
+    height: 400px;
+    text-align: center;
+    line-height: 400px;
+}
+
+footer{
+    background-color: lightpink;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+}

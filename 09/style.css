@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    background: mediumaquamarine;
+}
+
+#conteudo{
+    width: 500px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.caixa{
+    background: red;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+#relativo{
+    position: relative;
+    left: 30px;
+}
+
+#absoluto{
+    position: absolute;
+    left: 30px;
+}
+
+#fixo{
+    position: fixed;
+    left: 200px;
+    top: 0;
+}
