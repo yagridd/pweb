@@ -28,3 +28,82 @@
 </body>
 
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 09 - Posicionamento</title>
+
+    <style>
+        body {
+            background: #61b08c;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #conteudo {
+            width: 300px;
+            height: 200px;
+            background: white;
+            border: 1px solid black;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .caixa {
+            width: 80px;
+            height: 80px;
+            color: white;
+            text-align: center;
+            line-height: 80px;
+            margin: 10px;
+        }
+
+        #relativo {
+            position: relative;
+            background: blue;
+            left: 20px;
+            top: 10px;
+        }
+
+        #absoluto {
+            position: absolute;
+            background: red;
+            left: 450px;
+            top: 150px;
+        }
+
+        #fixo {
+            position: fixed;
+            background: green;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="conteudo">
+
+        <h2>Container Div</h2>
+
+        <div class="caixa" id="relativo">
+            Relativo
+        </div>
+
+        <div class="caixa" id="absoluto">
+            Absoluto
+        </div>
+
+        <div class="caixa" id="fixo">
+            Fixo
+        </div>
+
+    </div>
+
+</body>
+
+</html>
